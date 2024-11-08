@@ -14,7 +14,7 @@
 
 <!-- Sidebar container with conditional width and smooth transition for layout changes -->
 <div
-	class={`drawer-mobile drawer ${isCollapsed ? 'w-20' : 'w-32'} min-h-screen fixed bg-[#f5fffe] md:pt-36 flex flex-col text-[#0D494E] shadow-lg transition-all duration-300`}
+	class={`drawer-mobile drawer ${isCollapsed ? 'w-20' : 'w-32'} min-h-screen fixed bg-[#f5fffe] z-[1] md:pt-36 flex flex-col text-[#0D494E] shadow-lg transition-all duration-300`}
 >
 	<!-- Toggle button to expand/collapse sidebar -->
 	<div class="mt-12 p-4 md:mt-5">
