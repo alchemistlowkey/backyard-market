@@ -1,6 +1,7 @@
 <script>
-	import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+	import { faChevronDown, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 	import { Button, cls } from 'svelte-ux';
+	import {Fa} from "svelte-fa"
 
 	let isMenuOpen = false;
 
@@ -36,7 +37,9 @@
 			</div>
 		</div>
 		<div class="">
-			<a href="/" class="btn btn-ghost text-xl hover:bg-transparent">Backyard Market</a>
+			<a href="/" class="btn btn-ghost text-xl hover:bg-transparent">Backyard Market
+				<Fa icon={faCartShopping} class="text-green-400" />
+			</a>
 		</div>
 		<div class="">
 			<div class="form-control">
